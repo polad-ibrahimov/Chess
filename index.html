@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>chess</title>
+</head>
+
+<body>
+
+    <script>
+        for (var i = 0; i < 8; i++) {
+            for (var j = 0; j < 8; j++) {
+                if ((i + j) % 2 != 0) {
+                    document.write('<div style="background:#397b7b; display:inline-block; padding:20px;"></div>');
+
+                } else {
+                    document.write('<div style="background:#bdbdbd;display:inline-block; padding:20px;"></div>');
+                }
+            }
+            document.write("<br>");
+        }
+    </script>
+
+</body>
+
+</html>
